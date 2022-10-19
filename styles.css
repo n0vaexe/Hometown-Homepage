@@ -1,0 +1,84 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Prata', serif;
+}
+
+.hero {
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px black;
+    padding: 177px 180px;
+    background-image: url(images/payson-scenic.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    background: #1D3557;
+    padding: 3px 12px;
+    border-radius: 15px;
+}
+
+#sub-title {
+    background: #457B9D;
+    padding: 5px 28px;
+    border-radius: 15px;
+}
+
+.activities {
+    color: #1D3557;
+    background: #F1FAEE;
+    padding: 38px 35px;
+}
+
+.activities-sub {
+    padding: 33px 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.columns {
+    max-width: 198px;
+}
+
+.guide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 294px;
+    margin: 50px auto;
+    color: #1D3557;
+    background: #A8DADC;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 15px;
+}
+
+.guide-info {
+    max-width: 189px;
+}
+
+.activities-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#selfie {
+    width: 180px;
+    border-radius: 15px;
+}
